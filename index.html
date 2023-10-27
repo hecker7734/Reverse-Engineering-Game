@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse Engineering Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Reverse Engineering Game</h1>
+        <div class="instructions">
+            <h2>Instructions</h2>
+            <p>Welcome to the Reverse Engineering Game!</p>
+            <p>Your goal is to decode the provided codes and progress through the levels.</p>
+            <p>Enter your decoded code in the input field and click "Continue".</p>
+            <p>Good luck and have fun!</p>
+        </div>
+        <p> Your Code is: </p>
+        <div class="encoded-string" id="encoded-string"></div>
+        <input type="text" id="decode-function" placeholder="Enter the decoded code">
+        <button onclick="decode()">Continue</button>
+        <div class="result" id="">Encoding Function:     
+        </div>
+            <div class="result" id="result"></div>
+        
+    </div>
+    <!--- Hey! Don't spoil the game for yourself, try out the puzzles before hacking :) And hey, if you do hack, just don't ruin the game for others!-->
+    <script src="answers.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
